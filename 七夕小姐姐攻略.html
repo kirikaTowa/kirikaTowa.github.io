@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>YWJH泠喵</title>
+ <script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.min.js"></script>
+
+  
+<style type="text/css">
+p,div,body{
+	padding:0;
+	margin:0;
+	}
+   .box{
+	     
+	     width:800px;
+		 height:620px;
+		 border:30px solid ;
+		 border-color:#553939;
+		 
+		 margin:20px auto;
+		 position:relative;
+		 
+		 }
+   .one{
+	position: absolute;
+	left: 95px;
+	top: 104px;
+	   }
+
+	.two{
+	position: absolute;
+	left: 92px;
+	top: 184px;
+		}
+	.three{
+	position: absolute;
+	left: 61px;
+	top: 266px;
+		}
+	.true{
+		
+		position: absolute;
+		left: 122px;
+		top: 521px;
+		width: 154px;
+		height: 24px;
+		}
+	.fail{
+		
+		position: absolute;
+		left: 387px;
+		top: 518px;
+		width: 156px;
+		height: 24px;
+		}
+	img{
+		 width:800px;
+		 height:620px;
+	
+		}
+		
+		
+		.btn-success
+{
+	color:#FFF;background-color:#5cb85c;border-color:#4cae4c
+}
+.btn-success.active,.btn-success.focus,.btn-success:active,.btn-success:focus,.btn-success:hover,.open>.dropdown-toggle.btn-success
+{
+	color:#fff;background-color:#449d44;border-color:#398439}.btn-success.active,.btn-success:active,.open>.dropdown-toggle.btn-success{background-image:none}
+	.btn-success.disabled,.btn-success.disabled.active,.btn-success.disabled.focus,.btn-success.disabled:active,.btn-success.disabled:focus,.btn-success.disabled:hover,.btn-success[disabled],.btn-success[disabled].active,.btn-success[disabled].focus,.btn-success[disabled]:active,.btn-success[disabled]:focus,.btn-success[disabled]:hover,fieldset[disabled] .btn-success,fieldset[disabled] .btn-success.active,fieldset[disabled] .btn-success.focus,fieldset[disabled] .btn-success:active,fieldset[disabled] .btn-success:focus,fieldset[disabled] .btn-success:hover
+	{
+		background-color:#5cb85c;border-color:#4cae4c
+	}
+.btn-success .badge
+{
+	color:#5cb85c;background-color:#fff
+}.
+		
+		
+		
+		
+		
+		.btn-danger{
+			color:#fff;background-color:#d9534f;border-color:#F00
+			}
+.btn-danger.active,.btn-danger.focus,.btn-danger:active,.btn-danger:focus,.btn-danger:hover,.open>.dropdown-toggle.btn-danger
+{
+	color:#fff;background-color:#c9302c;border-color:#ac2925}.btn-danger.active,.btn-danger:active,.open>.dropdown-toggle.btn-danger{background-image:none}
+	.btn-danger.disabled,.btn-danger.disabled.active,.btn-danger.disabled.focus,.btn-danger.disabled:active,.btn-danger.disabled:focus,.btn-danger.disabled:hover,.btn-danger[disabled],.btn-danger[disabled].active,.btn-danger[disabled].focus,.btn-danger[disabled]:active,.btn-danger[disabled]:focus,.btn-danger[disabled]:hover,fieldset[disabled] .btn-danger,fieldset[disabled] .btn-danger.active,fieldset[disabled] .btn-danger.focus,fieldset[disabled] .btn-danger:active,fieldset[disabled] .btn-danger:focus,fieldset[disabled] .btn-danger:hover
+	{
+		background-color:#d9534f;border-color:#d43f3a
+	}
+.btn-danger.badge{color:#d9534f;background-color:#fff}.btn-link{font-weight:400;color:#337ab7;border-radius:0}
+
+		
+		
+		
+		
+</style>
+
+</head>
+
+<body>
+	
+   <body bgcolor="#EBE9EB">
+
+<div class="box">
+  <img src="img/风凌.jpg">
+        
+  <p class="one" style="font-size: 35px;">沿着晨曦</p>
+  <p class="two" style="font-size: 35px;">找到你</p>
+  <p class="three" style="font-size: 35px;">我的世界便充满光明</p>
+        
+         
+      <div class="true">
+        <button type="button" class="btn btn-success" style="width: 100%" id="no">好</button>
+      </div>
+      <div class="fail">
+                <button type="button" class="btn btn-danger" style="width: 100%" id="ok">不好</button>
+       </div>
+</div>
+	
+    
+<script>
+    var i=1;
+    var ok=false;
+    $(document).ready(function(){
+        $("#no").click(function(){
+            alert("真的吗？你答应了？");
+            alert("给我发消息吧，爱你");
+			alert("联系方式:xxxx");
+            $(".question").addClass('hide');
+            $("#success").removeClass('hide');
+            ok=true;
+        });
+        $("#ok").click(function(){
+            switch(i){
+                case 1:
+                    alert("工资上交");
+                    break;
+                case 2:
+                    alert("家务全包");
+                    break;
+                case 3:
+                    alert("房产证写你的名字");
+                    break;
+				case 4:
+                    alert("保大");
+                    break;
+                case 5:
+                    alert("我妈会游泳");
+                    break;
+                case 6:
+                    alert("不跟你吵架，会撒娇 会卖萌");
+                    break;
+                default:
+                    alert("答应我吧");
+            }
+            i++;
+        });
+    });
+</script>
+
+
+</body>
+</html>
